@@ -16,11 +16,13 @@ header{
 
 .container{
     display: grid;
-    grid-template-columns: 900px 200px;
+    grid-template-columns: 900px 100px 400px;
     grid-template-rows: 350px 200px 100px 100px;
     grid-gap: 10px;
     margin: auto;
 }
+
+
 
 .container header{
     grid-row: 1;
@@ -36,8 +38,6 @@ header{
 .c2{
     grid-column: 3;
     grid-row: 2/3;
-    padding: 10px 50px 10px 5px ;
-    margin: 5px;
 }
 
 header img{
@@ -66,6 +66,21 @@ header h1{
     color: #718096;
 }
 
+article img{
+    float: right;
+}
+
+aside{
+    padding: 10px 50px 10px 0px ;
+    margin: 0px 40px 10px 0px;
+}
+
+aside p{
+    background-color: #E2E8F0;
+    padding: 30px;
+    font-size: 20px;
+}
+
 aside h3{
     color: #48BB78;
 }
@@ -75,20 +90,14 @@ aside h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-aside p{
-    background-color: #E2E8F0;
-    padding: 10px;
-    font-size: 20px;
-}
-
-article img{
-    float: right;
+a{
+    color: #4299E1;
 }
 
 footer{
     color: #FFFFFF;
     background-color: #2C5282;
     padding: 10px;
-    grid-row: 130;
-    grid-column: 1;
+    grid-row: 65;
+    grid-column: 1/4;
 }
