@@ -1,0 +1,57 @@
+body{
+    display: grid;
+}
+
+header{
+    display: flex;
+    background-color: #63B3ED;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 20px;
+}
+
+header img{
+    border-radius: 500px;
+    align-self: center;
+}
+
+header h1,header p{
+    align-self: center;
+    justify-self: flex-end;
+    padding: 4px;
+    margin: 4px;
+}
+
+header h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btitle{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+.date{
+    color: #718096;
+}
+
+aside h3{
+    color: #48BB78;
+}
+
+.about{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+aside p{
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #2C5282;
+    padding: 10px;
+}
